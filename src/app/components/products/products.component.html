@@ -1,0 +1,6 @@
+<button (click)="createNewProduct()">Crear producto H_Product</button>
+
+<app-product [product]="product"
+*ngFor="let product of products"
+(updateProduct)="onUpdateProduct($event)"
+></app-product>

@@ -1,0 +1,11 @@
+<p>id: {{ product.id }} </p>
+<p>Name: {{ product.name }} </p>
+<p>Cost: {{ product.cost }} </p>
+<p>Price: {{ product.price }} </p>
+<p>Date created: {{ product.dateCreated }} </p>
+<p>lastModified: {{ product.lastModified }} </p>
+<p>isActive: {{ product.isActive }} </p>
+<p>tagList: {{ product.tagList[0] = 'ME FALTA ARREGLAR ESTO QUE NO ACCEDE A ID O NAME' }} </p>
+<p style="color: green;">Category Name: {{ product.idCategory.name }} </p>
+<button (click)="onUpdateProduct()">Actualizar este producto</button>
+<hr>
