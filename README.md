@@ -13,3 +13,5 @@ Con contraseña "12"
 
 El endpoing de crear usuario no funciona de la api (probar en postman) manda error de consulta sql
 actualizar y eliminar los productos 1 - 6 no funciona por que son productos que ya venian en la api
+
+Código de la página en la rama master
